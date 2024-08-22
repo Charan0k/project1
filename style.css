@@ -1,0 +1,53 @@
+*{
+	margin:0px;
+	padding:0px;
+	border-size:border-box;
+	font-family:arial;
+}
+
+body{
+	background-color:yellowgreen;
+	width:100%;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.box{
+	background-color:white;
+	height:fit-content;
+	width:fit-content;
+	padding:50px;
+	border-radius:10px;
+	box-shadow:20px;
+}
+
+.heading{
+	color:Black;
+	text-align:center;
+}
+
+h1{
+	font-size:40px;
+}
+
+button{
+	border:none;
+	outline:none;
+	font-size:14px;
+	padding:11px;
+	cursor:pointer;
+	border-radius:5px;
+	margin-top:10px;
+	color:white;
+}
+
+.laps{
+	margin-top:20px;
+}
+
+.lap{
+	font-size:16px;
+	margin:5px 0;
+}
